@@ -21,6 +21,8 @@ public class EjecucionParesImpares {
 
         ClaseParesImpares.getRangoNumeros(inicio, fin, true);
         ClaseParesImpares.getRangoNumeros(inicio, fin, false);
+        
+        scan.close();
     }
 
 }
