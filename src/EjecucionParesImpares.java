@@ -17,7 +17,7 @@ public class EjecucionParesImpares {
         entrada = scan.nextLine();
         int fin = Integer.parseInt(entrada);
 
-        ClaseParesImpares.getNumerosImpares(inicio, fin);
+       
 
         ClaseParesImpares.getRangoNumeros(inicio, fin, true);
         ClaseParesImpares.getRangoNumeros(inicio, fin, false);
