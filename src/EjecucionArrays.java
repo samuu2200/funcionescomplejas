@@ -5,19 +5,13 @@ public class EjecucionArrays {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        // Definimos el tamaño del array
-        int[] numerosArray = new int[3];
-
-        // Recorremos el array para agregarles un valor
-        for (int i = 0; i < numerosArray.length; i++) {
-            System.out.print("La suma de los valores del arrays es: ");
-            numerosArray[i] = (int) (Math.random() * 100);
-        }
+        // Llamamos a la clase JuegoArray.getArrayRamdom
+        int[] numerosArray = JuegoArrays.getArrayRandom(4);
 
         // Llamamos a la clase JuegoArray para que sume sus valores
-        int sumaArray = JuegoArrays.sumarNumerosArray(numerosArray);
+        int suma = JuegoArrays.sumarNumerosArray(numerosArray);
         
-        System.out.println(sumaArray);
+        System.out.println(suma);
         scan.close();
     }
 
