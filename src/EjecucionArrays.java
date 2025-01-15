@@ -10,8 +10,8 @@ public class EjecucionArrays {
 
         // Recorremos el array para agregarles un valor
         for (int i = 0; i < numerosArray.length; i++) {
-            System.out.print("Introduce los valores del array: ");
-            numerosArray[i] = scan.nextInt();
+            System.out.print("La suma de los valores del arrays es: ");
+            numerosArray[i] = (int) (Math.random() * 100);
         }
 
         // Llamamos a la clase JuegoArray para que sume sus valores
